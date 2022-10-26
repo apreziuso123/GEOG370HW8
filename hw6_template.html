@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+</head>
+<body>
+<h1>Homework 8: Geoprocessing Analysis </h1>
+<h2>Antonio Preziuso</h2>
+<h3>For this homework, I wanted to answer the question of "What does access to hospitals look like for rural North Carolinians?" First, I did some research on the subject and read about a Pew Research survey that found the average rural American is 10.5 miles from the nearest hospital (https://www.pewresearch.org/fact-tank/2018/12/12/how-far-americans-live-from-the-closest-hospital-differs-by-community-type/). In order to compare the national average to North Carolina, I found data on an NC GIS website for all hospital locations across the state as well as the counties of the state. I then used the Buffer tool to create a 10.5 mile radius around each hospital location. Once I did this, I used the Dissolve tool to blend together all of the buffers that I created. After this, I changed the symbology of my layers to create distinct colors for each feature. Furthermore, I changed the opacity of some layers to show how this data overlays on top of the OpenStreetMap. The final result is a map that shows which rural areas of North Carolina have an above-average distance to a hospital compared to the rest of the country.  </h3>
+<!-- Your map goes here -->
+<a href="Hospitals in NC.png">
+    <img src="Hospitals in NC.png" alt="your map" width='500px'>
+    </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Links to datasets created and source for data used in this project</h2>
+    <a href="https://github.com/apreziuso123/GEOG370HW8"> https://github.com/apreziuso123/GEOG370HW8 </a>
+<h4></h4>
+    <a href="https://www.nconemap.gov"> https://www.nconemap.gov </a>
+</body>
+</html>
